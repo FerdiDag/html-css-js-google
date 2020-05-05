@@ -6,4 +6,82 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.header-container {
+    height: 50px;
+    display: flex;
+}
+
+.header-left {
+    display: flex;
+    width: 25%;
+}
+
+.header-left>ul>li {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.header-right>ul>li {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.header-right {
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.header-left>ul>li>a, .header-right>ul>li>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 1200px;
+    height: 500px;
+}
+
+.central-box {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+#main-menu > li {
+    position: relative;
+}
+
+.dropdown {
+    display: block;
+    list-style-type: none;
+    position: absolute;
+    left:50%;
+      transform: translateX(-50%);
+}
+
+.dropdown li {
+    display: inline-block;
+}
+
+
+.dropdown li img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
 }
