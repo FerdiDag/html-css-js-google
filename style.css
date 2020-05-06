@@ -146,18 +146,20 @@ body {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 
 .dropdown li img {
-    
+
     width: 60px;
 }
 
-.img-container p {
-
-    display: block;
-
+.dropdown p {
+    display: inline-block;
+    
 }
+
+
 
 .footer-lang {
     display: flex;
