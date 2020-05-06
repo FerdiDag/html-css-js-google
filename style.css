@@ -52,14 +52,14 @@ body {
     justify-content: center;
     align-content: center;
     max-width: 1200px;
-    height: 800px;
+
 }
 
 .search {
     margin: auto;
     margin-top: 10px;
     padding-bottom: 20px;
-     
+
 }
 
 .bar {
@@ -73,6 +73,7 @@ body {
 
 .central-box {
     width: 600px;
+    padding-top: 200px;
     margin: auto;
     text-align: center;
 }
@@ -128,10 +129,6 @@ body {
     object-fit: contain;
 }
 
-.footer {
-    width: 100%;
-    background-color: #f2f2f2;
-}
 
 .footer-container {
     display: flex;
@@ -141,6 +138,8 @@ body {
 .footer {
     position: absolute;
     bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 .footer-left {
