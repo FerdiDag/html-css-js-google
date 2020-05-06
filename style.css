@@ -139,6 +139,7 @@ body {
     top: 50px;
     left: 50%;
     transform: translateX(-80%);
+    text-align: center;
 }
 
 .dropdown li {
@@ -148,8 +149,14 @@ body {
 }
 
 .dropdown li img {
-    height: 60px;
+    
     width: 60px;
+}
+
+.img-container p {
+
+    display: block;
+
 }
 
 .footer-lang {
