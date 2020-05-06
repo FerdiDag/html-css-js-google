@@ -19,6 +19,7 @@ body {
 .header-container {
     height: 50px;
     display: flex;
+    align-items: center;
 }
 
 .header-left {
@@ -29,14 +30,12 @@ body {
 
 .header-left>ul>li {
     display: inline-block;
-    line-height: 50px;
     padding-right: 15px;
     list-style-type: none;
 }
 
 .header-right>ul>li {
     display: inline-block;
-    line-height: 50px;
     padding-left: 15px;
     list-style-type: none;
 }
@@ -149,15 +148,17 @@ body {
 
 .dropdown li img {
     width: 60px;
+
 }
 
-.img-wrapper p {
-    display: inline;
-    text-align: center;
+.dropdown li a {
+    padding: 10px;
+    text-decoration: none;
 }
 
 .img-wrapper {
-width: 60px;
+    width: 60px;
+
 }
 
 .footer-lang {
