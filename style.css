@@ -132,7 +132,6 @@ body {
 
 .dropdown {
     width: 300px;
-    display: flex;
     display: none;
     list-style-type: none;
     position: absolute;
@@ -146,20 +145,20 @@ body {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .dropdown li img {
-
     width: 60px;
 }
 
-.dropdown p {
-    display: inline-block;
-    
+.img-wrapper p {
+    display: inline;
+    text-align: center;
 }
 
-
+.img-wrapper {
+width: 60px;
+}
 
 .footer-lang {
     display: flex;
@@ -169,13 +168,11 @@ body {
     background-color: #f2f2f2;
     height: 30px;
     border-top: 1px solid #e4e4e4;
-
 }
 
 .footer-lang span {
     padding: 0px 16px;
     line-height: 30px;
-
 }
 
 .footer-container {
@@ -186,7 +183,6 @@ body {
 .footer {
     width: 100%;
     background-color: #f2f2f2;
-
 }
 
 .footer-left {
