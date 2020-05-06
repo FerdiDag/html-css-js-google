@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .header-container {
@@ -63,7 +63,7 @@ body {
     justify-content: center;
     align-content: center;
     max-width: 1200px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 130px);
 }
 
 .search {
@@ -80,6 +80,13 @@ body {
     color: #9AA0A6;
 }
 
+.fa-microphone {
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+    color: #9AA0A6;
+}
+
 .bar {
     width: 100%;
     border: 1px solid #dfe1e5;
@@ -91,7 +98,6 @@ body {
 
 .central-box {
     width: 600px;
-    padding-top: 200px;
     margin: auto;
     text-align: center;
 }
@@ -146,6 +152,23 @@ body {
     width: 60px;
 }
 
+.footer-lang {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 15px;
+    background-color: #f2f2f2;
+    height: 30px;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+.footer-lang span {
+    padding: 0px 16px;
+    line-height: 30px;
+
+}
+
 .footer-container {
     display: flex;
     height: 50px;
@@ -154,14 +177,17 @@ body {
 .footer {
     width: 100%;
     background-color: #f2f2f2;
+
 }
 
 .footer-left {
+    border-top: 1px solid #e4e4e4;
     width: 50%;
     padding-left: 15px;
 }
 
 .footer-right {
+    border-top: 1px solid #e4e4e4;
     display: flex;
     justify-content: flex-end;
     width: 50%;
